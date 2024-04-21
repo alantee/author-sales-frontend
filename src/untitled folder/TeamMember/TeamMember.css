@@ -1,0 +1,41 @@
+.team-member {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.team-member:hover {
+  background-color: #e8e8e8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+  
+  .profile-picture {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .team-member-info {
+    flex-grow: 1;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .profile-picture {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 15px; 
+    object-fit: cover;
+  }
+  

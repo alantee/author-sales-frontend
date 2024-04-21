@@ -1,0 +1,14 @@
+.app {
+  font-family: 'Arial', sans-serif;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 50px;
+}

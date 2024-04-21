@@ -1,0 +1,23 @@
+.team-member-list {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .back-arrow {
+    cursor: pointer;
+  }
+  
+  .action-placeholder {
+    width: 24px; 
+    height: 24px; 
+  }
+  
